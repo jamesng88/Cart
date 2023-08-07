@@ -1,0 +1,48 @@
+@charset "UTF-8";
+div {
+	margin: 10px;
+}
+
+input{
+	margin: 5px 0;
+}
+
+table {
+	margin: 10px;
+	position: static;
+	border: 1px solid black;
+	text-align: center;	
+}
+
+th, td {
+	border: 1px solid black;
+	text-align: center;	
+	padding:5px
+}
+
+tr:nth-child(even){
+	background-color: antiquewhite;
+}
+
+tr:hover{
+	background-color: navajowhite;
+}
+
+a {
+	padding: 5px;
+	color: grey;
+}
+
+a:hover{
+	color: lightseagreen;	
+	background-color: antiquewhite;
+}
+
+.menu{
+	color:black;
+	border: 1px solid black;
+	text-align: center;
+	background-color: azure;
+	text-decoration: none;
+	margin: 5px;
+}
